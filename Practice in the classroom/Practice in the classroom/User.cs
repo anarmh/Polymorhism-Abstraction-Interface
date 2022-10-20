@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Practice_in_the_classroom
 {
-    public class User : IUser
+    public class User :Test,ITest,IUser
     {
         public void Login(string username, string password)
         {
